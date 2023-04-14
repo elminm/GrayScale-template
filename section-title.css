@@ -1,0 +1,75 @@
+.section {
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url('https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--text-color);
+    font-size: 20px;
+}
+.section__title {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.section__title-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 80%;
+    margin: auto;
+}
+
+
+.section__title-header-info-items {
+    display: flex;
+}
+.section__title-header-info-items li {
+    margin-left: 30px;
+}
+.section__title-header-info-items li a {
+    color: var(--text-color);
+    font-size: var(--main-size);
+}
+
+.grayscale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grayscale .grayscale__title h1{
+    letter-spacing: 10px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 6.5rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.grayscale__content-info {
+    color: rgba(255, 255, 255, 0.5) !important;
+    margin-bottom: 30px;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+.grayscale__btn button {
+    border: none;
+    outline: none;
+    color: white;
+    letter-spacing: 2px;
+    background-color: var(--btn-color);
+    padding: 20px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.about__section {
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about__section-description {
+    width: 55%;
+    margin: 0 auto;
+}
+.about__section-description h3 {
+    color: rgba(255,255,255,.8);
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.about__section-description p {
+    color: rgb(128,134,126);
+    font-size: var(--main-size);
+}
+.about__section-description p a {
+    color:rgb(100,162,157);
+    text-decoration: underline;
+}
+.about__section-img{
+    width: 60%;
+    margin: 0 auto;
+}
+.about__section-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
